@@ -1,0 +1,213 @@
+* {
+
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("./img/microfone.jpg");
+    background-size: cover;
+    /* Redimensiona a imagem para cobrir todo o corpo */
+    background-repeat: no-repeat;
+
+}
+
+.headerBtnGroup {
+    display: flex;
+    gap: 15px;
+}
+
+.navBtn {
+    font-size: 19px;
+    padding: 16px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    color: rgb(235, 222, 222);
+    cursor: pointer;
+    transition: 0.4s;
+    margin-left: 40px;
+}
+
+.navBtn:hover {
+    border-bottom: 2px solid rgb(27, 125, 211);
+}
+
+.inicio {
+    color: rgb(237, 237, 241);
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.hover-text {
+    color: rgb(237, 237, 241);
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    text-align: center;
+    transition: color 0.3s;
+    /* Transição suave */
+}
+
+.hover-text:hover {
+    color: rgb(44, 21, 177);
+    /* Cor ao passar o mouse (hover) */
+}
+
+.hover-text1 {
+    color: rgb(237, 237, 241);
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    transition: color 0.3s;
+    /* Transição suave */
+    margin-left: 35px;
+}
+
+.hover-text1:hover {
+    color: rgb(44, 21, 177);
+    /* Cor ao passar o mouse (hover) */
+}
+.container{
+    color: rgb(15, 14, 14);
+    margin: 10px;
+    padding: 10px;
+    
+    
+    
+}
+.column {
+    
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+    float: left;
+    margin-right: 20px;
+    margin-top: 900px;
+    color: blue;
+    margin-bottom: 20px;
+    
+    
+    
+    
+}
+
+
+.img {
+    margin: 20px;
+    padding: 5px;
+    width: 270px;
+    height: 350px;
+    float: left;
+    cursor: pointer;
+    border-radius: 30px;
+    border: 2px solid rgb(43, 25, 143);
+    background-size: cover;
+    transition: filter 0.3s;
+    /* Transição suave */
+    margin-top: 50px;
+    
+}
+.whatsapp-icon {
+    font-size: 24px;
+    color: rgb(14, 15, 14);
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 520px;
+    padding: 5px;
+    margin-left: 20px;
+    
+  }
+  .whatsapp-icon1{
+    
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 300px;
+   
+    
+  }
+.instagram{
+    width: 115px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 300px;
+
+}
+.img:hover {
+    filter: grayscale(100%);
+    /* Converte a imagem para preto e branco */
+}
+.videos {
+    display: flexbox;
+    margin: 10px;
+    padding: 10px;
+    width: 600px;
+    height: 150px;
+  }
+
+  .video-container {
+    display: flex;
+    justify-content: space-between;
+  }
+.video3{
+    cursor: pointer;
+    display:inline-block ;
+   margin-top: -1500px;
+    padding-left: 50px;
+    margin-bottom: 100px;
+    margin-left: 500px;
+    
+    width: 970px;
+    
+    
+}
+  .video1 {
+    cursor: pointer;
+    border-radius: 30px;
+    max-width: 350px;
+    padding-left: 50px;
+    margin-bottom: 40px;
+    width: 1270px;
+  }
+
+
+.presentation {
+    margin: 90px;
+    padding: 90px;
+    font-size: 20px;
+    float: left;
+    border: 3px solid rgb(39, 15, 105);
+    background-color: rgb(224, 213, 235);
+    color: rgb(24, 22, 22);
+    max-width: 500px;
+    transition: background-color 0.2s;
+    /* Transição suave */
+
+}
+
+.presentation:hover {
+    background-color: rgba(100, 78, 226, 0.568);
+}
+
+
+.presentation1 {
+    margin: 20px;
+    padding: 90px;
+    font-size: 20px;
+    float: left;
+    border: 3px solid rgb(39, 15, 105);
+    background-color: rgb(224, 213, 235);
+    color: rgb(24, 22, 22);
+    max-width: 500px;
+    transition: background-color 0.3s;
+    /* Transição suave */
+
+
+}
+
+.presentation1:hover {
+    background-color: rgba(100, 78, 226, 0.568);
+}
